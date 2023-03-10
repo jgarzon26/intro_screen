@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intro_screen/screens/intro/intro.dart';
+import 'package:intro_screen/screens/welcome/Welcome.dart';
 
 main() => runApp(const App());
 
@@ -13,6 +14,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => const Intro(),
+        '/welcome': (context) => const Welcome(),
       },
     );
   }

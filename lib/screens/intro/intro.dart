@@ -64,7 +64,9 @@ class Intro extends StatelessWidget {
             ),
           ),
         ],
-        onDone: () {},
+        onDone: () {
+          Navigator.pushNamed(context, '/welcome');
+        },
         onSkip: () {},
         showSkipButton: true,
         skip: const Text(
